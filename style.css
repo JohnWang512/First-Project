@@ -14,3 +14,17 @@ blue;
 width:100px;
 height:80px;
 }
+
+.bb{
+box-sizing: border-box;
+width:200px;
+margin: 10px;
+padding: 10px;
+border:solid black 1px;
+}
+.cb{
+width:200px;
+margin: 10px;
+padding: 10px;    
+border:solid black 1px;    
+}
