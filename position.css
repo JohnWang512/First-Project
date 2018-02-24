@@ -1,0 +1,74 @@
+div.fixed-br {
+position: fixed;
+bottom: 0;
+right: 0;
+width: 50px;
+background-color: aqua;
+border: 3px solid darkblue;
+}
+
+div.fixed-bl {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 50px;
+background-color: skyblue;
+border: 3px solid teal;
+}
+
+div.fixed-tl {
+position: fixed;
+top: 0;
+left: 0;
+width: 50px;
+background-color: hotpink;
+border: 3px solid red;
+}
+
+div.fixed-tr {
+position: fixed;
+top: 0;
+right: 0;
+width: 50px;
+background-color: mistyrose;
+border: 3px solid lightpink;
+}
+
+div.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+text-align: center;
+padding: 5px;
+background-color: orange;
+border: 2px solid darkorange;
+}
+
+div.sticky-b {
+position: -webkit-sticky;
+position: sticky;
+bottom: 0;
+text-align: center;
+padding: 5px;
+background-color: orange;
+border: 2px solid darkorange;
+}
+
+.container {
+    position: relative;
+}
+
+.centertext {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
