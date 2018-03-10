@@ -1,6 +1,6 @@
-html {
+body {
 background-color:
-springgreen;
+springgreen !important;
 }
 
 .para {
@@ -8,23 +8,29 @@ color: aqua;
 font-size: 
 }
 
-img {
+.birdy {
 background-color: 
 blue;
-width:100px;
-height:80px;
+width:140px;
+height:100px;
 }
 
 .bb{
-box-sizing: border-box;
+box-sizing: border-box !important;
 width:200px;
 margin: 10px;
 padding: 10px;
 border:solid black 1px;
 }
+
 .cb{
 width:200px;
 margin: 10px;
 padding: 10px;    
 border:solid black 1px;    
 }
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
