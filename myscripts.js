@@ -26,7 +26,7 @@ function myOtherFunction(p1, p2) {
 return p1 + p2;
 }
 
-alert(myFunction(6,7));
+//alert(myFunction(6,7));
 alert(myOtherFunction(1,3));
 
 console.log(x);
@@ -41,9 +41,11 @@ document.querySelector("h1").innerHTML = theMessage;
 }
 
 function myFunction(){
-var btn = document.createElement("BUTTON");       
+var btn = document.createElement("button");       
 var t = document.createTextNode("CLICK ME");     
-btn.appendChild(t);                               
+btn.appendChild(t);
+    
+    //console.log("the button" + btn);
 document.body.appendChild(btn);                   
 }
 
